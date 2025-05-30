@@ -4,12 +4,12 @@
     padding:0px;
 }
 body{
-    background-color: #aeecef;
+    background-color: #caecef;
 }
 header{
     text-align: center;
     color: #bed8da;
-    background-color: #3066be;
+    background-color: #213448;
     padding: 30px;
 }
 header h1{
@@ -18,8 +18,7 @@ header h1{
 }
 nav{
     text-align: center;
-    color: #bed8da;
-    background-color: #119da4;
+    background-color: #547792;
     padding: 10px;
 }
 nav ul{
@@ -30,7 +29,7 @@ nav ul{
     list-style: none;
 }
 nav ul li a{
-    color:#133366;
+    color:#213448;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     padding-right: 20px;
@@ -50,14 +49,14 @@ main{
 .barraLateral{
     flex:1;
     border-radius: 15px;
-    background-color: #80ded9;
+    background-color: #94B4C1;
     margin:10px;
     padding:15px;
 }
 main div section{
     flex:2;
     border-radius: 15px;
-    background-color: #6d9dc5;
+    background-color: #94B4C1;
     margin:10px;
     padding:15px;
 }
@@ -69,8 +68,7 @@ main h2{
 }
 footer{
     text-align: center;
-    color: #bed8da;
-    background-color: #119da4;
+    background-color: #213448;
     padding: 10px;
     position: fixed;
     bottom: 0px;
@@ -78,5 +76,8 @@ footer{
     width:100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    color:#133366;
+    color:#213448;
+}
+footer h2{
+    color: #bed8da;
 }
