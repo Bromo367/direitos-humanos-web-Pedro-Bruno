@@ -1,0 +1,82 @@
+/*#3066be #119da4 #6d9dc5 #80ded9 #aeecef*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #aeecef;
+}
+header{
+    text-align: center;
+    color: #bed8da;
+    background-color: #3066be;
+    padding: 30px;
+}
+header h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:64px;
+}
+nav{
+    text-align: center;
+    color: #bed8da;
+    background-color: #119da4;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li a{
+    color:#133366;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom:50px;
+    padding-top:10px;
+}
+.linhas{
+    display: flex;
+    flex-flow: row, wrap;
+}
+.barraLateral{
+    flex:1;
+    border-radius: 15px;
+    background-color: #80ded9;
+    margin:10px;
+    padding:15px;
+}
+main div section{
+    flex:2;
+    border-radius: 15px;
+    background-color: #6d9dc5;
+    margin:10px;
+    padding:15px;
+}
+main h2{
+    font-size:36px;
+}
+.texto{
+    font-size:18px;
+}
+footer{
+    text-align: center;
+    color: #bed8da;
+    background-color: #119da4;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#133366;
+}
