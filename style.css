@@ -61,10 +61,15 @@ main div section{
     padding:15px;
 }
 main h2{
+    padding:20px;
+    padding-top:10px;
+    padding-bottom: 0px;;
     font-size:36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .texto{
-    font-size:18px;
+    font-size:24px;
+    padding:15px;
 }
 footer{
     text-align: center;
