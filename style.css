@@ -111,5 +111,6 @@ footer h2{
 #idImagem{
     width:80%;
     align-self:center;
+    justify-self: center ;
     margin: 15px;
 }
