@@ -107,10 +107,12 @@ main h2{
     width:80%;
     border-radius: 25px;
     align-self:center;
-    padding :15px;
+    margin:15px;
     height: auto;
-    max-width: 800px;
+    max-width: 500px;
     display: block;
+    border: 3px #8198af;
+    border-style: solid;
 }
 #idQuadrado{
     width:30%;
@@ -142,11 +144,15 @@ main h2{
     #idQuadrado{
         width: 80%;
     }
+    #idConvencao{
+        order: -1;
+    }
 }
 #idLink{
     align-self: center;
     font-size: 24px;
     margin:0px;
+    margin-bottom: 60px;
 }
 #idBotao{
     background-color: rgb(88, 109, 129);
