@@ -169,7 +169,7 @@ main h2{
 footer{
     text-align: center;
     background-color: #213448;
-    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
     position: fixed;
     bottom: 0px;
     left: 0px;
